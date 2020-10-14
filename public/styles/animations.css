@@ -3,7 +3,7 @@
         opacity: 0;
         transform: translateY(16px);
     }
-        
+
     to {
         transform: translateY(0);
         opacity: 100%;
