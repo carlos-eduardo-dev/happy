@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Proffy" src=".github/img/logo.svg" height="100px" style="padding: 25px;background-color: #15D6D6; width: 100%; height: 100%"/>
+    <img alt="Proffy" src=".github/img/happy.png" height="100px"/>
     <br>Next Level Week #3<br/>
     Node.js
     <br>
