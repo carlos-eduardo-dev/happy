@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Proffy" src=".github/img/happy.png" height="100px"/>
+    <img alt="Proffy" src=".github/img/happy.png" width=100%/>
     <br>Next Level Week #3<br/>
     Node.js
     <br>
