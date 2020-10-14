@@ -1,0 +1,16 @@
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+        
+    to {
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}
+
+.animate-up {
+    animation: up 200ms;
+    animation-fill-mode: forwards;
+}
