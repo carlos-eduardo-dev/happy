@@ -7,7 +7,10 @@ const options = {
 }
 
 // create map
-const map = L.map('mapid', options).setView([-16.7094905, -49.2682496], 14.5);
+const lat = document.querySelector('span[data-lat]').dataset.lat
+const lng = document.querySelector('span[data-lng]').dataset.lng
+
+const map = L.map('mapid', options).setView([lat, lng], 15.5);
 
 // create and add tileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
@@ -15,14 +18,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
 
 // create icon
 const icon = L.icon({
-    iconUrl: "/public/images/map-marker.svg",
+    iconUrl: "/images/map-marker.svg",
     iconSize: [48, 58],
     iconAnchor: [29, 68],
     popupAnchor: [170, 2]
 });
 
 // create and market popup
-L.marker([-16.7094905, -49.2682496], { icon })
+L.marker([lat, lng], { icon })
     .addTo(map)
 
 // image gallery 
@@ -43,10 +46,7 @@ function selectImage(event) {
     // select image
     const image = button.children[0];
 
-    const imageContainer = document.querySelector(".orphanege-details > img")
+    const imageContainer = document.querySelector(".orphanage-details > img")
 
     imageContainer.src = image.src
-
-
-    // update container image
 }

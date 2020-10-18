@@ -1,5 +1,5 @@
 // create map
-const map = L.map('mapid').setView([-16.7094905, -49.2682496], 12)
+const map = L.map('mapid').setView([-16.682897357398723, -49.2513656616211], 12)
 
 // create and add tileLayer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
 
 // create icon
 const icon = L.icon({
-    iconUrl: "/public/images/map-marker.svg",
+    iconUrl: "/images/map-marker.svg",
     iconSize: [58, 68],
     iconAnchor: [29, 68],
 })
@@ -78,13 +78,16 @@ function toggleSelect(event) {
     });
 
     // set class active on button clicked
-    const button =  event.currentTarget
+    const button = event.currentTarget
     button.classList.add('active')
-    
+
     // update input hidden with value selected
     const input = document.querySelector('[name="open_on_weekends"]')
-    
+
     // set input value
     input.value = button.dataset.value
+}
+
+function validate(event) {
 
 }

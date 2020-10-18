@@ -1,0 +1,25 @@
+{
+  "name": "happy",
+  "version": "1.0.0",
+  "description": "O Happy é uma aplicação web desenvolvida para encontrar orfanatos na sua cidade. Nele são cadastrados os dias e os horários de visita, para que vc possa fazer o dia de uma criança melhor.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-eduardo-dev/happy.git"
+  },
+  "author": "Carlos Eduardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos-eduardo-dev/happy/issues"
+  },
+  "homepage": "https://github.com/carlos-eduardo-dev/happy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5",
+    "sqlite-async": "^1.1.0"
+  }
+}
