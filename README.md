@@ -24,13 +24,38 @@
 
 ## :rocket: Tecnologias
 
-_Projeto em desenvolvimento_
+-  [Node.js](https://nodejs.org/en/)
+-  [Express](https://expressjs.com/)
+-  [SQLite](https://www.sqlite.org/)
+-  [Leaflet](https://leafletjs.com/)
 
 ## :boom: Como Executar
 
 - ### **Pré-requisitos**
 
-_Projeto em desenvolvimento_
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador
+  - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador (**Não necessário** se baixar o [arquivo.zip](https://github.com/carlos-eduardo-dev/happy/archive/master.zip))
+
+1. Faça um clone do repositório:
+
+    ```sh
+    $ git clone https://github.com/carlos-eduardo-dev/happy.git
+    ```
+
+2. Executando a Aplicação:
+    ```sh
+    # Indo para a pasta da aplicação
+    $ cd happy/
+    
+    # Se baixar a versão .zip, descompacte o arquivo e altere o comando para: 
+    # $ cd happy-master/
+
+    #Instalando as dependências
+    $ npm i
+
+    # Iniciando a aplicação (localhost:5050)
+    $ npm start
+    ```
     
 ## :pencil: Licença
 
