@@ -1,4 +1,4 @@
-button.primary-button {
+.primary-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,6 +10,7 @@ button.primary-button {
 
     font: 800 1.8rem/1 "Nunito", sans-serif;
     color: #ffffff;
+    text-decoration: none;
 
     background: #3cdc8c;
     border: none;
@@ -20,11 +21,11 @@ button.primary-button {
     transition: 200ms;
 }
 
-button.primary-button:hover {
+.primary-button:hover {
     background: #36CF82;
 }
 
-button.primary-button img {
+.primary-button img {
     margin: 0 20px;
 }
 
