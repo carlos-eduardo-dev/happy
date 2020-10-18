@@ -14,6 +14,7 @@
   <a href="#pencil-licença">Licensa</a>&nbsp;&nbsp;&nbsp;
 </p>
 
+<img alt="Design" src=".github/img/design.png" width="100%">
 <h2 align="center"> Faça uma criança feliz </h2>
 
 ## :bookmark: Sobre
