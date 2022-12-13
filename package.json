@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/carlos-eduardo-dev/happy#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hbs": "^4.1.1",
     "nodemon": "^2.0.5",
     "sqlite-async": "^1.1.0"
